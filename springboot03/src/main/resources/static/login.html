@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>欢迎</title>
+    <STYLE type="text/css">
+        #form{
+            top:100%;
+            left:50%;
+            margin:0 auto;
+            width:175px;
+            height:140px;
+            /*border:1px solid #0066FF;*/
+        }
+    </STYLE>
+</head>
+<body>
+<div id="form">
+<form id="form-log" action="/login">
+    <!--用户名-->
+    <div>
+        用户名：
+        <div>
+            <input name="username" type="text" placeholder="请输入用户名">
+        </div>
+    </div>
+    <!--密码-->
+    <div>
+        密码：
+        <div>
+            <input name="password" type="password" placeholder="请输入密码">
+        </div>
+    </div>
+    <!-- 记住我-->
+    <div>
+        <input type="checkbox" id="auto">自动登录
+    </div>
+    <!--提交按钮-->
+    <div>
+        <input type="submit" value="登录" />
+        <small>还没有账号？</small><a href="register.html">注册</a>
+    </div>
+</form>
+</div>
+</body>
+</html>
